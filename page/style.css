@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: 2em;
+    background-color: rgba(0,0,0,0.8);
+    display:flex;   
+    list-style-type: none;
+}
+#navbar > li{
+    margin-left: 3%;
+    float: left;
+    flex-wrap: nowrap;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.cover-vid{
+    width: 100%;
+    height: 30em;
+    margin-top: 2em;
+}
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+    margin: 2em;
+    margin-left: 0;
+    margin-right: 0;
+}
+.first-p{
+    padding-left: 10%;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    width: 40%;
+}
+.img1-first-p{
+    float: left;
+    background-color: violet;
+    width: 15%;
+    height: 15em;
+}
+.img2-first-p{
+    margin-left: 2%;
+    float: left;
+    background-color: black;
+    width: 15%;
+    height: 15em;
+}
